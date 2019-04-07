@@ -1,0 +1,416 @@
+.navbar 
+{
+    background-color: white !important;
+    height: 70px;
+    
+}
+
+.nav-item{
+    padding: 20px;
+}    
+
+#logo{
+    height: 200px;
+    margin-right:7px;
+    float: left;
+}
+
+.ms
+{
+    width:500px;
+    height:500px;
+    color: orange;
+    background-color: white;
+    border-radius:50px;
+    margin-right: 25px;
+    font-weight: bold;
+ 
+}
+
+.hs
+{
+    width:500px;
+    height:500px;
+    color:orange;
+    background-color: white;
+    border-radius:50px;
+    font-size: 35px;
+    margin-left: 25px;
+    
+  
+}
+
+#ms {
+    height: 200px;
+}
+
+#hs {
+    height: 200px;
+}
+
+
+.mshs1
+{
+    text-align: center;
+    font-size: 35px;
+}  
+
+.mshs
+{
+    text-align: center;
+    font-size: 35px;
+}
+
+/*body*/
+/*{*/
+/*    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);*/
+  
+/*}*/
+
+#gradient{
+    color: #fff;
+    background: linear-gradient(120deg, #F9D423, #f83600);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 7s ease infinite;
+    -moz-animation: Gradient 7s ease infinite;
+    animation: Gradient 7s ease infinite;
+}
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+.ajax-response {
+    text-align: center;
+}
+
+.carousel_img{
+    height:100%;
+    width: 100%;
+    max-height: 1439px;
+}
+
+h1
+{
+    color:white;
+}
+
+.carousel_img{
+    height:100%;
+    width: 100%;
+    max-height: 1439px;
+}
+
+p1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: lato ;
+    padding: 20px;
+    
+}
+.mshs:hover {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.highschoolbanner{
+    background-color:orange;
+    color: white;
+    text-align:center;
+}
+
+
+.contact {
+    font-style: oblique;
+}
+
+.about {
+    font-style: oblique;
+}
+
+.touch {
+    font-style: oblique;
+}
+
+.practicequestion{
+    background-color:white;
+    margin: auto;
+    width: 70%;
+    padding:20px;
+    color:black;
+    margin-bottom:20px;
+}
+
+.hstypesContainer {
+     width: 100%;
+    height: 100px;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.prepcategory{
+    text-align:center;
+    color:white;
+}
+
+/*.Highschools {*/
+/*    text-align: center;*/
+/*    padding: left 20px;*/
+/*    padding: right 20px;*/
+/*    font-family: lato ;*/
+/*}*/
+
+h4 {
+    background-color: black;
+}
+
+.card {
+    background-color: black;
+}
+
+
+#tipsheading{
+    text-align:center;
+}
+.apptips{
+    margin:50px;
+    padding:20px;
+    background-color:white;
+    color:black;
+}
+
+
+
+.satproblem{
+    padding-left: 60px;
+}
+
+/*Trusted By*/
+
+.trusted {
+    text-align: center;
+    color: White;
+
+
+}
+
+/*.trust h2 {*/
+/*    color: red;*/
+    
+/*}*/
+
+
+/*#br_2{*/
+/*    display: none;*/
+/*    margin-bottom: 2px;*/
+/*    font-size:2px;*/
+/*    line-height: 2px;*/
+/*}*/
+#title_box_trusted{
+    width: 20%;
+    margin-left: 9%;
+    background-color: transparent;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: auto;
+
+}
+.trusted img {
+    
+    width: 200px;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 500ms ease-in-out;
+}
+
+#ka img {
+    width: 60%;
+}
+
+.trusted li:hover img {
+    opacity: 1;
+}
+
+#section-title {
+    opacity: 1;
+}
+
+.answers{
+    color:black;
+    text-align:center;
+}
+
+.row {
+  background-color: transparent;
+  width: 1000px;
+  height: 500px;
+  perspective: 1000px;
+  margin: auto;
+  padding: 20px;
+  text-align:center;
+    display: flex;
+  align-items: center
+}
+.flip-card{
+    height:100%;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+   color: #fff;
+    background: linear-gradient(120deg, #2980B9, #6DD5FA);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 7s ease infinite;
+    -moz-animation: Gradient 7s ease infinite;
+    animation: Gradient 7s ease infinite;
+}
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+  color: black;
+  z-index: 2;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+.toptenContainer {
+    text-align: center;
+}
+
+.toptenContainer img {
+    height: 350px; 
+}
+
+.submit{
+    background-color: white;
+    color: orange;
+    border-radius:25px;
+}
+
+.footer {
+    background: black;
+}
+
+.satbackground
+{
+    background-image:url("background.jpg");
+    
+}
+
+h1.flip-card-front{
+    font-size:32px;
+}
